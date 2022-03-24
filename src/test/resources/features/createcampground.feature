@@ -1,8 +1,11 @@
 Feature: Create a new Campground
 
+  User should be able to create a campground
+
+  @createcampground
   Scenario: Create new campground
 
     Given user is logged in
-    And go to campground page
+    And verify user is on campground page
     And create a new campground
     Then a new campground is created

@@ -16,6 +16,7 @@ public class Base {
     public void setup() {
         WebDriverManager.edgedriver().setup();
         driver = new EdgeDriver();
+        driver.manage().window().maximize();
         driver.get("https://ilzat.herokuapp.com/");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }

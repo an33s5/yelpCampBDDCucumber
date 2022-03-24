@@ -29,17 +29,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/yelpcamp/stepdefinitions" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Login with valid credentials">
-    <configuration name="Scenario: Campground are loaded" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: User registration">
+    <configuration name="All Features in: features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/loadedcampgrounds.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features" />
       <option name="GLUE" value="com.yelpcamp.stepdefinitions com.yelpcamp.base" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="yelpcampbdd" />
-      <option name="NAME_FILTER" value="^Campground are loaded$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Campground are loaded$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Campground are loaded" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: features" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -51,9 +51,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Create new campground" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Create new campground (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/createcampground.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/createCampground.feature" />
       <option name="GLUE" value="com.yelpcamp.stepdefinitions com.yelpcamp.base" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="yelpcampbdd" />
@@ -91,15 +91,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Map box is displayed" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User registration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/mapboxdisplayed.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/userRegistration.feature" />
       <option name="GLUE" value="com.yelpcamp.stepdefinitions com.yelpcamp.base" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="yelpcampbdd" />
-      <option name="NAME_FILTER" value="^Map box is displayed$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Map box is displayed$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Map box is displayed" />
+      <option name="NAME_FILTER" value="^User registration$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User registration$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User registration" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +111,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CukesRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="yelpcampbdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yelpcamp.cukersrunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yelpcamp.cukersrunner" />
+      <option name="MAIN_CLASS_NAME" value="com.yelpcamp.cukersrunner.CukesRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: User registration" />
+        <item itemvalue="Cucumber Java.All Features in: features" />
+        <item itemvalue="TestNG.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Create new campground (1)" />
         <item itemvalue="Cucumber Java.Scenario: Login with valid credentials" />
-        <item itemvalue="Cucumber Java.Scenario: Create new campground" />
-        <item itemvalue="Cucumber Java.Scenario: Map box is displayed" />
-        <item itemvalue="Cucumber Java.Scenario: Campground are loaded" />
       </list>
     </recent_temporary>
   </component>

@@ -11,9 +11,8 @@ public class CampGroundsLoadedStep {
     CampgroundPage campgroundPage = new CampgroundPage();
 
     @Given("user goes to campgrounds page")
-    public void userGoesToCampgroundsPage() throws InterruptedException {
+    public void userGoesToCampgroundsPage() {
         campgroundPage.getViewCampgroundButton().click();
-        Thread.sleep(2000);
     }
 
     @And("user can see all campgrounds are listed")
