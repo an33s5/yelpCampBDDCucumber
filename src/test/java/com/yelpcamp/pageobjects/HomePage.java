@@ -52,12 +52,12 @@ public class HomePage extends PageObject {
     }
 
     public void registerWithNewAccount() {
-        usernameTextField.sendKeys("helloqwertys12345");
-        emailTextField.sendKeys("tigoga996yyuyrr4@f1xm.com");
-        passwordTextField.sendKeys("12345678900");
+        usernameTextField.sendKeys("helloqwertys1");
+        emailTextField.sendKeys("tigoga@f1xm.com");
+        passwordTextField.sendKeys("1234567");
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("scrollBy(0, 500)");
-        waitInSeconds(4);
+        waitInSeconds(1);
         registerBtn.click();
     }
 }
