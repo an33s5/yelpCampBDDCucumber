@@ -8,7 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 import java.time.Duration;
 
-public class Base {
+public class Base extends PageObject{
 
     public static WebDriver driver;
 
@@ -22,8 +22,8 @@ public class Base {
     }
 
     @After
-    public void teardown() throws InterruptedException {
-        Thread.sleep(2000);
+    public void teardown() {
+        waitInSeconds(2);
         driver.quit();
     }
 }
