@@ -1,4 +1,4 @@
-package com.yelpcamp.cukersrunner;
+package com.yelpcamp.cukesrunner;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;

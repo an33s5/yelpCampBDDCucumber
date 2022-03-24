@@ -31,7 +31,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/yelpcamp/stepdefinitions" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User registration">
+  <component name="RunManager" selected="Cucumber Java.All Features in: features">
     <configuration name="All Features in: features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features" />
@@ -115,12 +115,12 @@
       <module name="yelpcampbdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yelpcamp.cukersrunner.*" />
+          <option name="PATTERN" value="com.yelpcamp.cukesrunner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.yelpcamp.cukersrunner" />
-      <option name="MAIN_CLASS_NAME" value="com.yelpcamp.cukersrunner.CukesRunner" />
+      <option name="MAIN_CLASS_NAME" value="com.yelpcamp.cukesrunner.CukesRunner" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -130,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: User registration" />
         <item itemvalue="Cucumber Java.All Features in: features" />
+        <item itemvalue="Cucumber Java.Scenario: User registration" />
         <item itemvalue="TestNG.CukesRunner" />
         <item itemvalue="Cucumber Java.Scenario: Create new campground (1)" />
         <item itemvalue="Cucumber Java.Scenario: Login with valid credentials" />

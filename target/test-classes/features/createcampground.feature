@@ -2,7 +2,7 @@ Feature: Create a new Campground
 
   User should be able to create a campground
 
-  @createcampground
+  @createCampground
   Scenario: Create new campground
 
     Given user is logged in

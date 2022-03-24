@@ -8,7 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 import java.time.Duration;
 
-public class Base extends PageObject{
+public class Base extends PageObject {
 
     public static WebDriver driver;
 
